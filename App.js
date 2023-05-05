@@ -39,9 +39,11 @@ function App() {
                 </div>
                 
                 <div className="dev-credit-section">
-                    <div className="dev-logo">
-                        <img src="./images/credits/github.png" id="github" className={isDark ? "inverted-icon" : undefined}/>
-                    </div>
+                    <a href="https://github.com/Ngonal/MovieWatchlistProject">
+                        <div className="dev-logo">
+                            <img src="./images/credits/github.png" id="github" className={isDark ? "inverted-icon" : undefined}/>
+                        </div>
+                    </a>
                     <div className="dev-logo">
                         <img src="./images/credits/linkedin.png" id="linkedin" className={isDark ? "inverted-icon" : undefined}/>
                     </div>
