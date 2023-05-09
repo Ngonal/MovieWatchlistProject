@@ -44,9 +44,11 @@ function App() {
                             <img src="./images/credits/github.png" id="github" className={isDark ? "inverted-icon" : undefined}/>
                         </div>
                     </a>
-                    <div className="dev-logo">
-                        <img src="./images/credits/linkedin.png" id="linkedin" className={isDark ? "inverted-icon" : undefined}/>
-                    </div>
+                    <a href="https://www.linkedin.com/in/andrew-gager-21a0ba276/">
+                        <div className="dev-logo">
+                            <img src="./images/credits/linkedin.png" id="linkedin" className={isDark ? "inverted-icon" : undefined}/>
+                        </div>
+                    </a>
                 </div>
             </footer>
         </div>
